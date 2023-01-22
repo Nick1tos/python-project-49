@@ -10,17 +10,4 @@ def get_numbers():
 
     question = f'{num1}, {num2}'
     answer = str(gcd(num1, num2))
-
     return question, answer
-
-    """if math.gcd(num1, num2):
-        answer = math.gcd"""
-    """answer = math.gcd(num1, num2)"""
-    """if num1 < num2:
-        num1, num2 = num2, num1
-
-    while num2 != 0:
-        num1, num2 = num2, num1 % num2"""
-
-    """, num1"""
-
