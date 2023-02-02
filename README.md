@@ -14,7 +14,7 @@ You need to write step-by-step the following commands in your terminal:
 3. make package-install
 
 
-
+### Games:
 ### *Brain-even[![asciicast](https://asciinema.org/a/wlJumQWM5WBTgV4RYZH3DBtCm.svg)](https://asciinema.org/a/wlJumQWM5WBTgV4RYZH3DBtCm)
 
 ### *Brain-calc[![asciicast](https://asciinema.org/a/PdNo1wONxWkwqG6RPyzTr35ng.svg)](https://asciinema.org/a/PdNo1wONxWkwqG6RPyzTr35ng)
