@@ -22,7 +22,7 @@ def play(game):
             print('Correct!')
         else:
             print(f"{user_answer} is wrong answer ;(. Correct answer "
-                  f"was {answer}. \nLet`s try again, {name}!")
+                  f"was {answer}. \nLet's try again, {name}!")
             break
     else:
         print(f'Congratulations, {name}!')
