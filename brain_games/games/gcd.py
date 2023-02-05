@@ -8,6 +8,6 @@ def get_numbers():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
 
-    question = f'{num1}, {num2}'
+    print('question:', num1, num2)
     answer = str(gcd(num1, num2))
     return question, answer
