@@ -15,12 +15,12 @@ You need to write step-by-step the following commands in your terminal:
 
 
 ### Games:
-### *Brain-even[![asciicast](https://asciinema.org/a/wlJumQWM5WBTgV4RYZH3DBtCm.svg)](https://asciinema.org/a/wlJumQWM5WBTgV4RYZH3DBtCm)
+### *[Brain-even](https://asciinema.org/a/wlJumQWM5WBTgV4RYZH3DBtCm)
 
-### *Brain-calc[![asciicast](https://asciinema.org/a/PdNo1wONxWkwqG6RPyzTr35ng.svg)](https://asciinema.org/a/PdNo1wONxWkwqG6RPyzTr35ng)
+### *[Brain-calc](https://asciinema.org/a/PdNo1wONxWkwqG6RPyzTr35ng)
 
-### *Brain-gcd[![asciicast](https://asciinema.org/a/A7yBNuHNgSrKmiUKR4M8ew3D5.svg)](https://asciinema.org/a/A7yBNuHNgSrKmiUKR4M8ew3D5)
+### *[Brain-gcd](https://asciinema.org/a/A7yBNuHNgSrKmiUKR4M8ew3D5)
 
-### *Brain-progression[![asciicast](https://asciinema.org/a/r9kGAWG5PSXLwjbmFqt7p2jxt.svg)](https://asciinema.org/a/r9kGAWG5PSXLwjbmFqt7p2jxt)
+### *[Brain-progression](https://asciinema.org/a/r9kGAWG5PSXLwjbmFqt7p2jxt)
 
-### *Brain-prime[![asciicast](https://asciinema.org/a/VmUiGTqYYgL2xUklIHTkgxgAj.svg)](https://asciinema.org/a/VmUiGTqYYgL2xUklIHTkgxgAj)
+### *[Brain-prime](https://asciinema.org/a/VmUiGTqYYgL2xUklIHTkgxgAj)
