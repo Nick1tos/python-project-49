@@ -16,5 +16,5 @@ def get_numbers():
     random_index = random.randint(0, 10)
     answer = str(progression[random_index])
     progression[random_index] = '..'
-    question = " ".join(map(str, progression[0:10]))
+    question = ' '.join(map(str, progression[0:10]))
     return question, answer
