@@ -2,12 +2,12 @@
 
 """Progression game"""
 
-import brain_games.games.prog
+from brain_games.games import prog
 from brain_games.brain_engine import play
 
 
 def main():
-    play(brain_games.games.prog)
+    play(prog)
 
 
 if __name__ == '__main__':

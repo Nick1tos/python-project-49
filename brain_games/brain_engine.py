@@ -13,7 +13,7 @@ def play(game):
     print(game.RULE)
 
     for _ in range(MAX_ROUNDS):
-        question, answer = game.get_numbers()
+        question, answer = game.get_result()
 
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')

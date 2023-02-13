@@ -1,11 +1,14 @@
-import random
-
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MIN = 2
+MAX = 50
 
 
-def get_numbers():
-    question = random.randint(2, 50)
+def get_result():
+    question = randint(MIN, MAX)
     answer = 'yes'
+    return question, answer
+
+def prime_result():
     for i in range(2, int(question / 2) + 1):
         if (question % i) == 0:
             answer = 'no'

@@ -1,17 +1,22 @@
 import random
 
 RULE = 'What is the result of the expression?'
+MIN = 1
+MAX = 20
 
 
-def get_numbers():
-    num1 = random.randint(1, 20)
-    num2 = random.randint(1, 20)
+def get_result():
+    num1 = randint(MIN, MAX)
+    num2 = randint(MIN, MAX)
 
     operators = ['+', '-', '*']
     oper = random.choice(operators)
 
     question = f'{num1} {oper} {num2}'
+    answer = str(answer)
+    return question, answer
 
+def arithmetic_result():
     if oper == '+':
         answer = num1 + num2
     elif oper == '-':
@@ -19,4 +24,4 @@ def get_numbers():
     else:
         answer = num1 * num2
     answer = str(answer)
-    return question, answer
+    return answer

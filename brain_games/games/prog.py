@@ -1,15 +1,21 @@
 import random
 
 RULE = 'What number is missing in the progression?'
+MIN1 = 1
+MAX1 = 8
+MIN2 = 45
+MAX2 = 57
+STEP_MIN = 2
+STEP_MAX = 5
 
 
-def get_numbers():
+def get_result():
     progression = []
 
-    num1 = random.randint(1, 8)
-    num2 = random.randint(45, 57)
+    num1 = randint(MIN1, MAX1)
+    num2 = randint(MIN2, MAX2)
 
-    step = random.randint(2, 5)
+    step = randint(STEP_MIN, STEP_MAX)
 
     for i in range(num1, num2, step):
         progression.append(i)
