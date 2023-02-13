@@ -8,7 +8,6 @@ Brain Games consists of 5 mini-games related to simple math.
 ### How to install:
 
 You need to write step-by-step the following commands in your terminal:
-You need to write step-by-step the following commands in your terminal:
 1. make install
 2. make build
 3. make package-install
