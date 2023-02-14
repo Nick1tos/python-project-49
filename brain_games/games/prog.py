@@ -12,10 +12,10 @@ STEP_MAX = 5
 def get_result():
     progression = []
 
-    num1 = randint(MIN1, MAX1)
-    num2 = randint(MIN2, MAX2)
+    num1 = random.randint(MIN1, MAX1)
+    num2 = random.randint(MIN2, MAX2)
 
-    step = randint(STEP_MIN, STEP_MAX)
+    step = random.randint(STEP_MIN, STEP_MAX)
 
     for i in range(num1, num2, step):
         progression.append(i)

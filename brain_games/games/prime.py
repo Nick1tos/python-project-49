@@ -1,10 +1,12 @@
+import random
+
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 MIN = 2
 MAX = 50
 
 
 def get_result():
-    question = randint(MIN, MAX)
+    question = random.randint(MIN, MAX)
     answer = 'yes'
     return question, answer
 

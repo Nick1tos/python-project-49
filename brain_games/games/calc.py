@@ -1,13 +1,14 @@
 import random
 
+
 RULE = 'What is the result of the expression?'
 MIN = 1
 MAX = 20
 
 
 def get_result():
-    num1 = randint(MIN, MAX)
-    num2 = randint(MIN, MAX)
+    num1 = random.randint(MIN, MAX)
+    num2 = random.randint(MIN, MAX)
 
     operators = ['+', '-', '*']
     oper = random.choice(operators)
