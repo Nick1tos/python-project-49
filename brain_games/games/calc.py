@@ -14,8 +14,7 @@ def get_result():
     oper = random.choice(operators)
 
     question = f'{num1} {oper} {num2}'
-    answer = str(answer)
-    return question, answer
+    return question, str(answer)
 
 def arithmetic_result():
     if oper == '+':
