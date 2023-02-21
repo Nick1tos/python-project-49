@@ -20,11 +20,9 @@ def get_result():
 
 
 def arithmetic_result():
-    num1 = random.randint(MIN, MAX)
-    num2 = random.randint(MIN, MAX)
-
-    operators = ['+', '-', '*']
-    oper = random.choice(operators)
+    get_result()
+    num1 = get_result()
+    num2 = get_result()
 
     if oper == '+':
         answer = num1 + num2
