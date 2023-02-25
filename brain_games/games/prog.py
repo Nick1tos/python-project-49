@@ -20,7 +20,7 @@ def get_result():
     for i in range(num1, num2, step):
         progression.append(i)
     random_index = random.randint(1, 10)
-    correct_answer = str(progression[random_index])
+    answer = str(progression[random_index])
     progression[random_index] = '..'
-    question = ' '.join(map(str, progression[0:10]))
-    return question, correct_answer
+    question = ' '.join(map(str, progression[0:11]))
+    return question, answer
