@@ -11,8 +11,7 @@ def get_result():
     return question, answer
 
 
-def prime_result():
-    question = random.randint(MIN, MAX)
+def prime_result(question, answer):
     for i in range(2, int(question / 2) + 1):
         if (question % i) == 0:
             answer = 'no'
