@@ -16,4 +16,4 @@ def prime_result(question):
         if (question % i) == 0:
             answer = 'no'
             break
-    return question, answer
+    return answer
