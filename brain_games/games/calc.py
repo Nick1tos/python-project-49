@@ -12,13 +12,13 @@ def get_result():
 
     operators = ['+', '-', '*']
     oper = random.choice(operators)
-    answer = arithmetic_result(num1, num2)
+    answer = arithmetic_result(num1, num2, oper)
 
     question = f'{num1} {oper} {num2}'
     return question, str(answer)
 
 
-def arithmetic_result(num1, num2):
+def arithmetic_result(num1, num2, oper):
     if oper == '+':
         answer = num1 + num2
     elif oper == '-':
