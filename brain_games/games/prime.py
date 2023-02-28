@@ -7,7 +7,8 @@ MAX = 50
 
 def get_result():
     question = random.randint(MIN, MAX)
-    return question
+    answer = prime_result(question)
+    return question, answer
 
 
 def prime_result(question):
