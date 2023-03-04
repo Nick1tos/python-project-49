@@ -7,14 +7,14 @@ MAX = 50
 
 def get_result():
     question = random.randint(MIN, MAX)
-    answer = prime_result(question)
+    answer = 'no'
+    if prime_result(question):
+        answer = 'yes'
     return question, answer
 
 
 def prime_result(question):
-    answer = 'yes'
     for i in range(2, int(question / 2) + 1):
         if (question % i) == 0:
-            answer = 'no'
-            break
-    return answer
+            return False
+    return True
