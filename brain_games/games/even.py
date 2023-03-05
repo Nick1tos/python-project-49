@@ -9,10 +9,7 @@ MAX = 100
 def get_result():
     question = random.randint(MIN, MAX)
 
-    if even_result(question):
-        answer = 'yes'
-    else:
-        answer = 'no'
+    answer = 'yes' if even_result(question) else 'no'
     return question, answer
 
 

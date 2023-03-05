@@ -7,9 +7,8 @@ MAX = 50
 
 def get_result():
     question = random.randint(MIN, MAX)
-    answer = 'no'
-    if prime_result(question):
-        answer = 'yes'
+
+    answer = 'yes' if prime_result(question) else 'no'
     return question, answer
 
 
