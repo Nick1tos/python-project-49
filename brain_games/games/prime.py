@@ -8,11 +8,11 @@ MAX = 50
 def get_result():
     question = random.randint(MIN, MAX)
 
-    answer = 'yes' if prime_result(question) else 'no'
+    answer = 'yes' if is_prime(question) else 'no'
     return question, answer
 
 
-def prime_result(question):
+def is_prime(question):
     for i in range(2, int(question / 2) + 1):
         if (question % i) == 0:
             return False

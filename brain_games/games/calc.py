@@ -20,9 +20,8 @@ def get_result():
 
 def arithmetic_result(num1, num2, oper):
     if oper == '+':
-        answer = num1 + num2
-    elif oper == '-':
-        answer = num1 - num2
-    else:
-        answer = num1 * num2
-    return answer
+        return num1 + num2
+    if oper == '-':
+        return num1 - num2
+    if oper == '*':
+        return num1 * num2
